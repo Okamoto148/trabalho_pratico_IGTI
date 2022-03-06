@@ -1,0 +1,257 @@
+.header{
+    background-color:  rgb(207, 43, 43);
+    min-height: 40px;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+    display: flex;
+}
+
+.header a{
+    margin: 0 40px 0 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.header_mobile{
+    visibility: collapse;
+    font-size:0;
+}
+
+.main{
+    background-color: rgb(252, 255, 214);
+    margin-top:  0px; 
+    padding-top: 0px;
+    height: auto;   
+    display: flex;
+    flex-direction: column;
+        
+}
+
+.titulo{
+    text-align: center;
+}
+
+.origem_img{
+    padding-right:20px;
+    margin:0;
+    float:left;
+}
+
+.origem_texto{
+    padding-top: 20px;
+    margin: 0;
+}
+
+.origem{
+    margin-left:10%;
+    margin-right: 10%;
+    background-color: white;
+    height: 205px;
+}
+
+.citacao{
+   
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(128, 0, 0);
+    color: white;
+    margin-left:10%;
+    margin-right: 10%;
+    padding-top: 25px;
+    height: 60px;
+}
+
+.receita{
+    margin-left:10%;
+    margin-right: 10%;
+    flex-direction: row;
+    display: flex;
+    
+}
+
+.titulo-da-receita{
+    margin-left: 10%;
+}
+
+.receita_img{
+    margin:0;
+    float:left;
+    padding-right: 25px;
+
+}
+
+.receita_texto{
+    margin: 0;
+    padding:0;
+}
+
+.barra-lateral{
+    float:right;
+    padding: 20px;
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    background-color: white;   
+    
+}
+
+.barra-lateral a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.contato{
+    margin-left:10%;
+    margin-right: 10%;
+}
+
+.contato h2{
+    text-align:center;
+}
+
+.footer{
+    background-color: #3e3e3e;
+    height: 50px;
+    margin-top: 30px;
+    padding: 10px 10% 10px 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+}
+
+.footer_direito{
+    justify-content: flex-end;
+}
+
+
+@media(max-width: 480px){
+    .header{
+        background-color:  rgb(207, 43, 43);
+        min-height: 40px;
+        color: white;
+        display: flex;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        position:fixed;
+        width: 100%;
+        
+        
+    }
+
+    .header a{
+        margin: 0;
+    }
+
+    .header_desktop{
+        visibility: collapse;
+        font-size:0;
+    }
+
+    .header_mobile{
+        visibility: visible;
+        font-size:15px;
+    }
+
+    .titulo{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .origem_img{
+        margin:0;
+        padding:0;
+        width: 100%;
+    }
+    
+    .origem{
+        padding: 0;
+        height: 100%;
+    }
+    
+    .container_origem{
+        margin-left:10%;
+        margin-right: 10%;
+        background-color: white;
+        height: 100%;
+    }
+
+    .receita{
+        margin-left:10%;
+        margin-right: 10%;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .citacao{
+   
+        justify-content: center;
+        align-content: center;
+        background-color: rgb(128, 0, 0);
+        color: white;
+        margin: 10%;
+        padding: 20px;
+        
+        height: 100%;
+        font-size: 20px;
+    }
+
+    .receita_img{
+        margin:0;
+        padding:0;
+        width: 100%;
+    }
+    
+    .receita_texto{
+        flex-wrap: wrap;
+        
+    }
+
+    .barra-lateral{
+        width: 100%;
+        padding: 20px;
+        background-color: white;
+        
+    }
+
+    .contato_botao{
+        background-color: lawngreen;
+        width: 100%;
+        margin-top: 5px;
+    }
+    .contato_botao2{
+        background-color: orange;
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .footer{
+        background-color: #3e3e3e;
+        height: 70px;
+        margin-top: 30px;
+        padding: 10px 10% 10px 10%;
+        display: flex;
+        flex-flow: column;
+        flex: 1 1 auto;
+        align-items: center;
+        color: white;
+        justify-content: center;
+
+    }
+    
+    
+    .footer_direito{
+        align-self: center;
+        font-size: 15px;  
+    }
+
+    .container_contato_input{
+        width: 100%;
+    }
+    }
+
